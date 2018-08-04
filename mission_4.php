@@ -1,5 +1,5 @@
 <?php
-  //2重投防止
+  //2重投稿防止
   if (!empty($_POST)) {
     header("Location: {$_SERVER['REQUEST_URI']}");
   }
