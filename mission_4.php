@@ -9,7 +9,7 @@
   $password = 'パスワード';
   $pdo = new PDO($dsn,$user,$password);
   //テーブル作成
-  $sql = "CREATE TABLE bbs4(id INT, name char(32), comment TEXT, Con_time DateTime, pass TEXT)";
+  $sql = "CREATE TABLE bbs4(id INT, name char(32), comment TEXT, Con_time DateTime, pass TEXT);";
   $stmt = $pdo -> query($sql);
 
 //投稿処理
