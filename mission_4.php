@@ -88,7 +88,8 @@ if ($_POST['write'] && $_POST['mode'] == 'editmode' && isset($_POST['name']) && 
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8"><title>bbs</title>
+  <meta charset="utf-8">
+  <title>bbs</title>
 </head>
 <body>
 <!-- 投稿フォーム -->
